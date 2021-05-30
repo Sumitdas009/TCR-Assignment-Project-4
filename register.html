@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+        <link rel="stylesheet" href="./style2.css" /> 
+        <link rel="stylesheet" href="./form.js">
+
+
+
+  <title>ThemePark Blog</title>
+
+  <!-- -------------------------------------------------MD BOOTSTRAP----------------------------------------------- -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <link rel="stylesheet" href="node_modules/mdbootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/mdbootstrap/css/mdb.min.css">
+  <link rel="stylesheet" href="node_modules/mdbootstrap/css/style.css">
+
+  <!-- -------------------------------------------------MD BOOTSTRAP----------------------------------------------- -->
+
+</head>
+
+<body>
+
+
+  <!-- -------------------------------------------------MD BOOTSTRAP----------------------------------------------- -->
+  <script type="text/javascript" src="node_modules/mdbootstrap/js/jquery.min.js"></script>
+  <script type="text/javascript" src="node_modules/mdbootstrap/js/popper.min.js"></script>
+  <script type="text/javascript" src="node_modules/mdbootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="node_modules/mdbootstrap/js/mdb.min.js"></script>
+  <!-- -------------------------------------------------MD BOOTSTRAP----------------------------------------------- -->
+
+  <header>
+
+
+    <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<div class="container-fluid">
+					<button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+						data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false"
+						aria-label="Toggle navigation">
+						<i class="fas fa-bars"></i>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarExample01">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+							<li class="nav-item active">
+								<a class="nav-link" aria-current="page" href="./home.html">Home</a>
+							</li>
+							
+							<li class="nav-item">
+								<a class="nav-link" href="./post.html">Water Parks</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="./contact.html">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+     
+      <section class="form-elegant ">
+
+        <!-- Grid row -->
+        <div class="row">
+      
+          <!-- Grid column -->
+          <div class="col-md-9 col-lg-7 col-xl-5">
+      
+            <!--Form without header-->
+            <div class="card">
+      
+              <div class="card-body mx-4">
+      
+                <!--Header-->
+                <div class="text-center">
+                  <h3 class="dark-grey-text mb-5"><strong>Sign up</strong></h3>
+                </div>
+      
+                <!--Body-->
+                <div class="md-form">
+                  <input type="text" id="Form-email1" class="form-control">
+                  <label for="Form-email1">Your email</label>
+                </div>
+      
+                <div class="md-form">
+                  <input type="password" id="Form-pass1" class="form-control">
+                  <label for="Form-pass1">Your password</label>
+                </div>
+      
+                <div class="md-form pb-3">
+                  <input type="search" id="form-autocomplete-1" class="form-control mdb-autocomplete">
+                  
+                  <label for="form-autocomplete-1" class="active">Your country</label>
+                </div>
+      
+                <div class="text-center mb-3">
+                  <button type="button" class="btn blue-gradient btn-block btn-rounded z-depth-1a">Sign up</button>
+                </div>
+                <p class="font-small dark-grey-text text-right d-flex justify-content-center mb-3 pt-2"> or Sign up
+                  with:</p>
+      
+                <div class="row my-3 d-flex justify-content-center">
+                  <!--Facebook-->
+                  <button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i class="fab fa-facebook-f blue-text text-center"></i></button>
+                  <!--Twitter-->
+                  <button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i class="fab fa-twitter blue-text"></i></button>
+                  <!--Google +-->
+                  <button type="button" class="btn btn-white btn-rounded z-depth-1a"><i class="fab fa-google-plus-g blue-text"></i></button>
+                </div>
+      
+              </div>
+      
+              <!--Footer-->
+              <div class="modal-footer mx-5 pt-3 mb-1">
+                <p class="font-small grey-text d-flex justify-content-end">Already a member? <a href="#" class="blue-text ml-1">
+                    Sign In</a></p>
+              </div>
+      
+            </div>
+            <!--/Form without header-->
+      
+          </div>
+          <!-- Grid column -->
+      
+        </div>
+        <!-- Grid row -->
+      
+      </section>
+
+
+
+
+
+    <!-- <div class="logo-container">
+      <img src="Logo.jpg">
+      <h4 class="logo">BLOG</h4>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a class="nav-link" href="home.html">Home</a></li>
+        <li><a class="nav-link" href="post.html">Posts</a></li>
+        <li><a class="nav-link" href="register.html">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="video1">
+    <video src="snow.mp4" autoplay mute loop></video>
+    <div class="regform">
+      <h1>Registration Form</h1>
+    </div>
+    <div class="mane">
+      <form>
+        <div id="name">
+          <h2 class="name">Name</h2>
+          <input class="firstname" type="text" name="first_name"><br>
+          <label class="firstlabel">first name</label>
+          <input class="lastname" type="text" name="last_name">
+          <label class="lastlabel">last name</label>
+
+        </div>
+        <h2 class="name">School</h2>
+        <input class="college" type="text" name="college">
+
+
+
+        <h2 class="name">Phone</h2>
+        <input class="code" type="text" name="area_code">
+        <label class="area-code">Area code</label>
+        <input class="number" type="text" name="phone">
+        <label class="phone-number">Phone Number</label>
+
+        <h2 class="name">Themepark Options</h2>
+        <select class="option" name="subject">
+          <option disabled="disabled" selected="selected">--Choose Option</option>
+          <option>Adlabs Imagica</option>
+          <option>Essel World</option>
+          <option>Snow World</option>
+          <option>Water Kingdom</option>
+          <option>KidZania</option>
+          <option>Suraj water park</option>
+        </select>
+        <h2 id="student">Are you interested?</h2>
+        <label class="radio">
+          <input class="radio-one" type="radio" name="">
+          <span class="checkmark"></span>
+          Yes
+        </label>
+        <label class="radio">
+          <input class="radio=two" type="radio" name="">
+          <span class="checkmark"></span>
+          No
+        </label><br>
+        <button type="submit">Register</button>
+        <h1 class="end">It's better to burn out than to fade away.</h1>
+      </form>
+    </div>
+  </div> -->
+
+</body>
+
+</html
