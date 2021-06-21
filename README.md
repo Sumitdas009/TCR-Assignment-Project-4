@@ -10,6 +10,6 @@
 ### 1. Clone this repository.
 ### 2. Download the .zip file.
 ### 3. Then extraxt the file, and paste in a folder/drive.
-### 4. Open the index.html file which is already connected to it's respective files.
+### 4. Open the home.html file which is already connected to it's respective files.
 
 ## Note: make sure that all the content of the folder are in one place
